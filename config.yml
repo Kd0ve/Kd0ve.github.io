@@ -1,0 +1,115 @@
+title: Dove
+baseURL: "https://kd0ve.github.io/"
+theme: PaperModX
+
+enableRobotsTXT: true
+enableEmoji: true
+
+params:
+  description: "I like breaking things :)"
+  author: Kat
+  images:
+    - cover.png
+  favicon: apple-touch-icon.png
+  #logo:
+  #  icon: images/logo.svg
+  DateFormat: "2006-01-02"
+  useCustomAnalytics: true
+  mainSections:
+    - posts
+    - notes
+
+  # theme params
+  DisableLanguageSwitch: true
+  TocOpen: true
+  TocSide: left
+  EnableInstantClick: false
+  EnableImageZoom: true
+  ShowShareButtons: true
+  ShareButtons:
+    - twitter
+    - telegram
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  Email: katrinaldube@gmail.com
+
+  socialIcons:
+    - name: linkedin-simple
+      url: "https://linkedin.com/in/katrina-dube-386ba41a8"
+    - name: twitter-simple
+      url: "https://twitter.com/kat_ish_"
+    # - name: telegram-simple
+    #   url: "https://t.me/reorx_share"
+    # - name: rss-simple
+    #   url: "feed.xml"
+    # - name: gmail
+    #   url: email
+
+  socialAccounts:
+    twitter:
+      username: kat_ish_
+
+  #Home page
+  profileMode:
+    enabled: true
+    title: "Dove" # optional default will be site title
+    subtitle: "I like breaking things :)"
+    imageUrl: "kdove.jpg" # optional
+    imageTitle: "" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Github
+        url: "https://github.com/kd0ve"
+
+  commentSystems:
+   disqus:
+     shortname: kd0ve
+  #  remark42:
+  #    url: https://remark42.reorx.com
+  #    site: reorx.github.io
+  #  telegramWidget:
+  #    channel: reorx_share
+  #    accentColor: "9077e1"
+  #    limit: 20
+  # defaultCommentSystems:
+  #  remark42: true
+
+permalinks:
+  notes: /:section/:year/:month/:slugorfilename
+
+# prefer feed.xml rather than index.xml
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "feed"
+
+menu:
+  main:
+    - name: Posts
+      url: /posts/
+      weight: 1
+    - name: Notes
+      url: /notes/
+      weight: 2
+    - name: Archives
+      url: /archives/
+      weight: 3
+    - name: About
+      url: /about/
+      weight: 3
+
+languages:
+  en:
+    languageName: "English"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: dracula
+    lineNos: false
+    noClasses: false
