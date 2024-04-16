@@ -89,17 +89,17 @@ outputFormats:
 menu:
   main:
     - name: Posts
-      url: /blog/
+      url: https://kd0ve.github.io/blog/
       weight: 1
     - name: Notes
       url: /notes/
       weight: 2
     - name: Archives
-      url: /archives/
+      url: https://kd0ve.github.io/blog/archives/
       weight: 3
     - name: About
-      url: /about/
-      weight: 3
+      url: https://kd0ve.github.io/blog/about/
+      weight: 4
 
 languages:
   en:
