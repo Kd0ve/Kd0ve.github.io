@@ -89,7 +89,7 @@ outputFormats:
 menu:
   main:
     - name: Posts
-      url: /posts/
+      url: /blog/
       weight: 1
     - name: Notes
       url: /notes/
