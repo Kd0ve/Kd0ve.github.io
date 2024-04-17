@@ -5,6 +5,10 @@ theme: PaperModX
 enableRobotsTXT: true
 enableEmoji: true
 
+services:
+    # GA Tracking ID
+    googleAnalytics:
+        id: G-EBNL9SCQB6
 
 params:
   defaultTheme: auto
@@ -66,10 +70,6 @@ params:
     buttons:
       - name: Github
         url: "https://github.com/kd0ve"
-
-    analytics:
-      google:
-        SiteVerificationTag: "G-EBNL9SCQB6"
 
 
   commentSystems:
