@@ -5,6 +5,10 @@ theme: PaperModX
 enableRobotsTXT: true
 enableEmoji: true
 
+service:
+  googleAnalytics:
+    ID: G-TYMHMTK6Q6
+
 params:
   defaultTheme: auto
   description: "I like breaking things :)"
