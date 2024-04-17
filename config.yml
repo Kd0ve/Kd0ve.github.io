@@ -1,6 +1,7 @@
 title: Dove
 baseURL: "https://kd0ve.github.io/"
 theme: PaperModX
+picture: kdove.jpg
 
 enableRobotsTXT: true
 enableEmoji: true
