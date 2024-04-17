@@ -10,13 +10,11 @@ params:
   description: "I like breaking things :)"
   author: Kat
   images:
-    - cover.png
+    - apple-touch-icon.png
   favicon: apple-touch-icon.png
-  #logo:
-  #  icon: images/logo.svg
+  logo:
+   icon: apple-touch-icon.png
   DateFormat: "2006-01-02"
-  useCustomAnalytics: true
-  GoogleAnalytics: true
   mainSections:
     - posts
     - notes
