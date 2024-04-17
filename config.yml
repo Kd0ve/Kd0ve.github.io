@@ -94,12 +94,15 @@ menu:
     - name: Notes
       url: /notes/
       weight: 2
+    - name: Resources
+      url: https://kd0ve.github.io/blog/resources/
+      weight: 3
     - name: Archives
       url: https://kd0ve.github.io/blog/archives/
-      weight: 3
+      weight: 4
     - name: About
       url: https://kd0ve.github.io/blog/about/
-      weight: 4
+      weight: 5
 
 languages:
   en:
