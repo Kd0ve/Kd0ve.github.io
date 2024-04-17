@@ -6,6 +6,7 @@ enableRobotsTXT: true
 enableEmoji: true
 
 params:
+  defaultTheme: auto
   description: "I like breaking things :)"
   author: Kat
   images:
@@ -34,6 +35,7 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   Email: katrinaldube@gmail.com
+
 
   socialIcons:
     - name: linkedin-simple
@@ -116,3 +118,5 @@ markup:
     style: dracula
     lineNos: false
     noClasses: false
+
+
