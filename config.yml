@@ -5,11 +5,6 @@ theme: PaperModX
 enableRobotsTXT: true
 enableEmoji: true
 
-services:
-    # GA Tracking ID
-    googleAnalytics:
-        id: G-EBNL9SCQB6
-
 params:
   defaultTheme: auto
   description: "I like breaking things :)"
@@ -21,6 +16,7 @@ params:
   #  icon: images/logo.svg
   DateFormat: "2006-01-02"
   useCustomAnalytics: true
+  GoogleAnalytics: true
   mainSections:
     - posts
     - notes
@@ -84,6 +80,11 @@ params:
   #    limit: 20
   # defaultCommentSystems:
   #  remark42: true
+
+services:
+    # GA Tracking ID
+    googleAnalytics:
+        id: G-EBNL9SCQB6
 
 permalinks:
   notes: /:section/:year/:month/:slugorfilename
