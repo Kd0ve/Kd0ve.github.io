@@ -7,4 +7,5 @@ tags:
 ---
 
 ### To Do
-- Add resources page
+- [x] ~~Add resources page~~
+- [ ] Make write-up of missed challenges
