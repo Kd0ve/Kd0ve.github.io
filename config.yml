@@ -5,9 +5,6 @@ theme: PaperModX
 enableRobotsTXT: true
 enableEmoji: true
 
-service:
-  googleAnalytics:
-    ID: G-TYMHMTK6Q6
 
 params:
   defaultTheme: auto
@@ -69,6 +66,11 @@ params:
     buttons:
       - name: Github
         url: "https://github.com/kd0ve"
+
+    analytics:
+      google:
+        SiteVerificationTag: "G-TYMHMTK6Q6"
+
 
   commentSystems:
    disqus:
