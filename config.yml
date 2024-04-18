@@ -11,10 +11,10 @@ params:
   description: "I like breaking things :)"
   author: Kat
   images:
-    - cover.png
+    - apple-touch-icon.png
   favicon: apple-touch-icon.png
   logo:
-   icon: kdove.jpg
+   icon:
   DateFormat: "2006-01-02"
   mainSections:
     - posts
