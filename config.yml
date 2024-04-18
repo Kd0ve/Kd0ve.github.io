@@ -11,7 +11,7 @@ params:
   description: "I like breaking things :)"
   author: Kat
   images:
-    - apple-touch-icon.png
+    - kdove.jpg
   favicon: apple-touch-icon.png
   logo:
    icon: kdove.jpg
