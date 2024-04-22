@@ -1,5 +1,6 @@
 title: Dove
 baseURL: "https://kd0ve.github.io/"
+pageinate: 5
 theme: PaperModX
 picture: kdove.jpg
 
@@ -97,19 +98,19 @@ outputFormats:
 menu:
   main:
     - name: Posts
-      url: https://kd0ve.github.io/blog/
+      url: /post/
       weight: 1
     - name: Notes
       url: /notes/
       weight: 2
     - name: Resources
-      url: https://kd0ve.github.io/blog/resources/
+      url: /page/resources/
       weight: 3
     - name: Archives
-      url: https://kd0ve.github.io/blog/archives/
+      url: /page/archives/
       weight: 4
     - name: About
-      url: https://kd0ve.github.io/blog/about/
+      url: /page/about/
       weight: 5
 
 languages:
@@ -122,7 +123,9 @@ markup:
       unsafe: true
   highlight:
     style: dracula
-    lineNos: false
+    lineNos: true
     noClasses: false
+
+
 
 
