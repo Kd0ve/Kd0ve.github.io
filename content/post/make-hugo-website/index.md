@@ -10,7 +10,11 @@ tags:
 - Webdev
 license: CC BY-NC-ND
 comments: true
-image: 'hugo-logo.png'
+cover:
+  image: 'hugo-logo.png'
+  caption: ""
+  alt: ""
+  relative: false
 ---
 
 This post is going to be about how I would go about setting up a website like mine now that I’ve done it. I’ve learned a lot, and ran into a lot of specific issues, and figured I could be helpful to others who run into these weird little issues too, as it was difficult to find information on them online. 

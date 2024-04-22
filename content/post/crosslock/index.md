@@ -18,7 +18,11 @@ TocOpen: true # open contents automantically
 hidemeta: false # hide information (author, create date, etc.)
 disableShare: true	# do not show share button
 showbreadcrumbs: true # show current path
-image: "decompiler.png"
+cover:
+    image: "decompiler.png"
+    caption: ""
+    alt: ""
+    relative: false
 ---
 
 ## <u>Intro</u>

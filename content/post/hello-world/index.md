@@ -19,8 +19,11 @@ TocOpen: true # open contents automantically
 hidemeta: false # hide information (author, create date, etc.)
 disableShare: true	# do not show share button
 showbreadcrumbs: true # show current path
-image: "9b5b6cd046b649410f79928cd3fc7295.jpg"
-
+cover:
+    image: "9b5b6cd046b649410f79928cd3fc7295.jpg"
+    caption: ""
+    alt: ""
+    relative: false
 ---
 
 ## First post
