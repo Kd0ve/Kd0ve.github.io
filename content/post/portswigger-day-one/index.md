@@ -21,14 +21,14 @@ cover:
 
 ---
 
-Today I'm making my first entry in what I hope will be a series of posts on my daily learning at Portswigger academy! Please let me know if you enjoyed this post, and without further ado, here are my notes for day one!
+Today I'm making my first entry in what I hope will be a series of posts on my daily learning at Portswigger Academy! Please let me know if you enjoyed this post, and without further ado, here are my notes for day one!
 
 ## Path Traversal
-Starting off I'm going down the server-side vulnerabilities path, which covers a variety of common server-side vulnerabilities. 
+Starting off I'm going down the server-side vulnerabilities path, which covers a variety of common server-side exploits. 
 
 Starting off, they went over path traversal, which essentially is a vulnerability that allows you to access different areas of the server than you otherwise should be able to. The example that Portswigger Academy gives is there being a path traversal exploit within the image viewing.
 
-This would look like `url-here.com/file?image=image.jpg`, where you can then put in something like `url-here.com/file?image=../../../etc/passwd`. The `../` is a valid file bath, and you would put it there 3 times to traverse the path `/var/www/site`.
+This would look like `url-here.com/file?image=image.jpg`, where you can then put in something like `url-here.com/file?image=../../../etc/passwd`. The `../` is a valid file path, and you would put it there 3 times to traverse the path `/var/www/site`.
 
 ---
 
@@ -47,7 +47,7 @@ This one was interesting. Often, a cookie will be set to determine access rights
 In the example, they had us login to an authenticated account, which had an admin cookie set to false. You can easily use a cookie editor and change the admin setting in that cookie to "true".
 
 ### Horizontal Privilege Escalation
-This relates to traversing different accounts using things like user IDs, often GUIDs. Although sometimes these ID settings are in a predictable pattern, such as being set to the username of the user, however often they are a random string of numbers and letters used to identify different accounts.
+This relates to traversing different accounts using things like user IDs, often GUIDs. Although sometimes these ID settings are in a predictable pattern, such as being set to the username of the user, often they are a random string of numbers and letters used to identify different accounts.
 
 ### Unpredictable ID
 This is a similar idea to the unpredictable URL, where the ID is unpredictable. In the example lab, we had to go to the user account from their blog posts, which would leak the GUID in the URL, which can be input in the "My Account" panel, which will go to their account, where the password was exposed in the HTML.
@@ -80,7 +80,7 @@ Same thing as last time essentially but you use the internal address you find.
 ## File Upload Vulnerabilities
 These types of vulnerabilities occur in file upload areas of a website. This is where a file upload doesn't verify the filetype, which means you are able to upload code that may open shells within the system. The task in this lab is to upload a php script and gain access to the contents of a certain file. The php code I'm going to use is:
 
-```php
+```
 <html>
     <body>
     <form method="GET" name="<?php echo basename($_SERVER['PHP_SELF']); ?>">
@@ -109,4 +109,4 @@ This is all of what I did on my first day going through this free course. If any
 
 I'm hoping to continue to update each day as I work on these. I'm going to use these posts to take notes, and then post them at the end of the day with all the content I've learned. Hopefully this entry piqued your interest, and you look into doing these courses yourself! 
 
-If you made it this far, I appreciate you reading. You can email me if you have any comments or questions about the email in my about page. I'm hoping these note posts will keep me accountable with doing these pathways, and that it'll be a good way to document my journey trying to get into web app exploitation!
+If you made it this far, I appreciate you reading. You can email me if you have any comments or questions to the email in my about page. I'm hoping these note posts will keep me accountable with doing these pathways, and that it'll be a good way to document my journey trying to get into web app exploitation!
