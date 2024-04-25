@@ -4,6 +4,8 @@ description: Cybersecurity/CTF Resources
 date: '2024-04-17'
 license: CC BY-NC-ND
 lastmod: '2024-04-17'
+showToc: true 
+TocOpen: true
 menu:
     main: 
         weight: -80
