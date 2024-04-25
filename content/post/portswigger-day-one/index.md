@@ -13,7 +13,7 @@ comments: true
 showToc: true 
 TocOpen: true
 cover:
-    image: ""
+    image: "portswigger-01.png"
     caption: ""
     alt: ""
     relative: false
