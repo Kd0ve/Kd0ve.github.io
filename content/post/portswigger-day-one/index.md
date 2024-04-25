@@ -109,4 +109,4 @@ This is all of what I did on my first day going through this free course. If any
 
 I'm hoping to continue to update each day as I work on these. I'm going to use these posts to take notes, and then post them at the end of the day with all the content I've learned. Hopefully this entry piqued your interest, and you look into doing these courses yourself! 
 
-If you made it this far, I appreciate you reading. You can email me if you have any comments or questions to the email in my about page. I'm hoping these note posts will keep me accountable with doing these pathways, and that it'll be a good way to document my journey trying to get into web app exploitation!
+If you made it this far, I appreciate you reading. You can email me if you have anything you want to share, feel free to comment below! I'm hoping these note posts will keep me accountable with doing these pathways, and that it'll be a good way to document my journey trying to get into web app exploitation!
