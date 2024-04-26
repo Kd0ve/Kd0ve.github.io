@@ -1,7 +1,7 @@
 title: Dove
 baseURL: "https://kd0ve.github.io/"
 pageinate: 5
-theme: PaperModX
+theme: ['PaperModX', 'hugo-shortcodes']
 picture: kdove.jpg
 
 enableRobotsTXT: true
@@ -21,6 +21,16 @@ params:
     - posts
     - notes
 
+  # Buy me coffee
+  HugoShortcodes:
+    BuyMeACoffee:
+      Slug: "kd0ve"
+      Text: "Buy me a cofee"
+      font: "Bree"
+      button-color: "614484"
+      coffee-color: "FFFFFF"
+      cup-color: "FFDD00"
+      font-color: "FFFFFF"
   # theme params
   DisableLanguageSwitch: true
   TocOpen: true
@@ -43,12 +53,8 @@ params:
       url: "https://linkedin.com/in/katrina-dube-386ba41a8"
     - name: twitter-simple
       url: "https://twitter.com/kat_ish_"
-    # - name: telegram-simple
-    #   url: "https://t.me/reorx_share"
-    # - name: rss-simple
-    #   url: "feed.xml"
-    # - name: gmail
-    #   url: email
+    - name: buymeacoffee
+      url: https://buymeacoffee.com/kd0ve
 
   socialAccounts:
     twitter:
