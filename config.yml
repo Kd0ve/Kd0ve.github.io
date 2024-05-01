@@ -20,17 +20,6 @@ params:
   mainSections:
     - posts
     - notes
-
-  # Buy me coffee
-  HugoShortcodes:
-    BuyMeACoffee:
-      Slug: "kd0ve"
-      Text: "Buy me a cofee"
-      font: "Bree"
-      button-color: "614484"
-      coffee-color: "FFFFFF"
-      cup-color: "FFDD00"
-      font-color: "FFFFFF"
   # theme params
   DisableLanguageSwitch: true
   TocOpen: true
@@ -104,19 +93,19 @@ outputFormats:
 menu:
   main:
     - name: Posts
-      url: /post/
+      url: https://www.kdove.moe/blog/
       weight: 1
     - name: Notes
       url: /notes/
       weight: 2
     - name: Resources
-      url: /page/resources/
+      url: https://www.kdove.moe/blog/resources/
       weight: 3
     - name: Archives
-      url: /page/archives/
+      url: https://www.kdove.moe/blog/archives/
       weight: 4
     - name: About
-      url: /page/about/
+      url: https://www.kdove.moe/blog/about/
       weight: 5
 
 languages:
