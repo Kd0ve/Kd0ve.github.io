@@ -2,18 +2,13 @@
 title: About
 description: Who is Kdove?
 date: '2024-04-16'
+comments: false
 aliases:
   - about-us
   - about-hugo
   - contact
 license: CC BY-NC-ND
 lastmod: '2024-04-17'
-menu:
-    main: 
-        weight: -90
-        params:
-            icon: user
-comments: false
 ---
 
 Hi! My name is Katrina. I also go by Kat, and online I go by Kdove.
@@ -25,7 +20,7 @@ This site is where I'll be putting... well... everything! I want to use it as a 
 ---
 
 ## Resume
-First, I want to direct you to my resume [here](https://kd0ve.github.io/resume).
+First, I want to direct you to my resume [here](katrinadube_resume.pdf).
 
 ---
 
